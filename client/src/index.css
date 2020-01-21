@@ -65,6 +65,38 @@ body {
   background-color: green;
   color: white;
 }
+.edit-button {
+  position: absolute;
+  width: 59px;
+  height: 30px;
+  top: 75px;
+  right: 25px;
+  border: 1px solid grey;
+  padding: 5px 10px;
+  background-color: lightseagreen;
+  text-align: center;
+  font-size: 1rem;
+}
+.edit-button:hover {
+  background-color: green;
+  color: white;
+}
+
+.delete-button {
+  position: absolute;
+  width: 59px;
+  height: 30px;
+  font-size: 1rem;
+  top: 120px;
+  right: 25px;
+  border: 1px solid grey;
+  padding: 5px 5px;
+  background-color: lightseagreen;
+}
+.delete-button:hover {
+  background-color: green;
+  color: white;
+}
 
 .home-button {
   padding: 5px 10px;
